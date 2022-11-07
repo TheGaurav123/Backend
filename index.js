@@ -12,7 +12,7 @@ require("./config");
 // CORS
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://6368f700c67d15000831d75e--velvety-valkyrie-3aebb0.netlify.app/",
   })
 );
 
