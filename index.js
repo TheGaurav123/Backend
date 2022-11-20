@@ -10,11 +10,7 @@ const bcrypt = require("bcryptjs");
 require("./config");
 
 // CORS
-app.use(
-  cors({
-    origin: '*'
-  })
-);
+app.use(cors());
 
 app.use(express.json());
 
